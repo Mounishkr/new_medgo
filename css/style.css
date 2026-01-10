@@ -129,6 +129,7 @@ ul {
 .nav-links {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .nav-links a {
@@ -430,10 +431,12 @@ footer {
     outline: none;
     border-color: var(--accent);
 }
+
 /* =========================================
    Mobile Optimization Overrides
    ========================================= */
 @media (max-width: 768px) {
+
     /* Global Layout & Typography */
     .container {
         padding: 0 1.5rem;
@@ -472,7 +475,7 @@ footer {
         flex-direction: column;
         padding: 1.5rem;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        border-top: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
         backdrop-filter: blur(10px);
         text-align: center;
         gap: 1.5rem;
@@ -485,7 +488,7 @@ footer {
     .nav-links li {
         width: 100%;
     }
-    
+
     .nav-links a {
         display: block;
         padding: 0.5rem;
@@ -494,7 +497,8 @@ footer {
 
     /* Hero Section */
     .hero {
-        padding: 120px 0 60px !important; /* Override current padding */
+        padding: 120px 0 60px !important;
+        /* Override current padding */
         text-align: center;
     }
 
@@ -531,7 +535,7 @@ footer {
     .content-section {
         padding: 50px 0;
     }
-    
+
     .content-block {
         margin-bottom: 3rem;
     }
@@ -550,7 +554,7 @@ footer {
     }
 
     .contact-info-item {
-        flex-direction: row; 
+        flex-direction: row;
         gap: 1rem;
     }
 
@@ -573,13 +577,13 @@ footer {
     .footer-col p {
         margin: 0 auto;
     }
-    
+
     /* Specific adjustment for the Mission Section in index.html */
     section[style*="background: white"] .container {
         flex-direction: column;
         gap: 2rem !important;
     }
-    
+
     section[style*="background: white"] .glass-card {
         border-left-width: 0 !important;
         border-top: 4px solid var(--accent);
