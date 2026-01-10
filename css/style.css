@@ -430,3 +430,159 @@ footer {
     outline: none;
     border-color: var(--accent);
 }
+/* =========================================
+   Mobile Optimization Overrides
+   ========================================= */
+@media (max-width: 768px) {
+    /* Global Layout & Typography */
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .section-header {
+        margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.2rem !important;
+    }
+
+    h2 {
+        font-size: 1.8rem !important;
+    }
+
+    /* Navigation */
+    .menu-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: var(--primary);
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.98);
+        flex-direction: column;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(0,0,0,0.05);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 120px 0 60px !important; /* Override current padding */
+        text-align: center;
+    }
+
+    .hero-content {
+        margin: 0 auto;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    /* Inner Pages */
+    .page-header {
+        padding: 110px 0 50px;
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .content-section {
+        padding: 50px 0;
+    }
+    
+    .content-block {
+        margin-bottom: 3rem;
+    }
+
+    /* Grids: Force Single Column */
+    .features-grid,
+    .service-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    /* Contact Page */
+    .contact-grid {
+        gap: 3rem;
+    }
+
+    .contact-info-item {
+        flex-direction: row; 
+        gap: 1rem;
+    }
+
+    /* Footer */
+    .footer-main {
+        flex-direction: column;
+        gap: 2.5rem;
+        text-align: center;
+    }
+
+    .footer-col {
+        min-width: 100%;
+        align-items: center;
+    }
+
+    .footer-col .logo {
+        justify-content: center;
+    }
+
+    .footer-col p {
+        margin: 0 auto;
+    }
+    
+    /* Specific adjustment for the Mission Section in index.html */
+    section[style*="background: white"] .container {
+        flex-direction: column;
+        gap: 2rem !important;
+    }
+    
+    section[style*="background: white"] .glass-card {
+        border-left-width: 0 !important;
+        border-top: 4px solid var(--accent);
+        text-align: center;
+    }
+}

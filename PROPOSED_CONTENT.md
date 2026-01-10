@@ -1,3 +1,4 @@
+
 # PROPOSED WEBSITE REDESIGN: MedGo Healthcare
 
 ## 1. SEO & Brand Identity
@@ -27,7 +28,7 @@ Unlock hidden revenue, eliminate financial leakages, and optimize pharmacy procu
 ### **Why MedGo? (Value Proposition)**
 *Proven expertise to elevate your hospital's performance.*
 
-*   **25+ Years of Excellence:** Led by veterans with over two decades of global experience in pharmacy and hospital operations.
+*   **18+ Years of Excellence:** Led by veterans with over two decades of global experience in pharmacy and hospital operations.
 *   **Profit-Center Optimization:** We turn your pharmacy and administrative units into efficient, high-performing assets.
 *   **Ethical & Transparent:** Unwavering commitment to integrity, fair pricing, and clear processes.
 *   **Data-Driven Results:** We implement "Mid-course corrections" and robust MIS formats for precise management decision-making.
