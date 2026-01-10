@@ -138,6 +138,7 @@ ul {
     display: flex;
     gap: 2rem;
     align-items: center;
+    height: 100%;
 }
 
 .nav-links a {
