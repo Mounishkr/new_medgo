@@ -95,6 +95,14 @@ ul {
     color: var(--accent);
 }
 
+.nav-btn {
+    padding: 0.6rem 1.5rem !important;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: normal;
+}
+
 /* Navigation */
 .navbar {
     position: fixed;
